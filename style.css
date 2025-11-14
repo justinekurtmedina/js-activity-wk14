@@ -1,7 +1,7 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #eaf2f8; /* Mas magaan at preskong background */
-    color: #34495e; /* Madilim na asul para sa teksto */
+    background-color: #eaf2f8; 
+    color: #34495e; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,18 +11,18 @@ body {
     text-align: center;
 }
 
-/* Container para mas organisado ang laman */
+
 .container {
     background-color: #ffffff;
     padding: 30px;
     border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Kaunting anino */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
     max-width: 400px;
     width: 90%;
 }
 
 h2 {
-    color: #1abc9c; /* Kulay berde na nagpapahiwatig ng "confirmation" */
+    color: #1abc9c; 
     border-bottom: 2px solid #bdc3c7;
     padding-bottom: 10px;
     margin-top: 0;
@@ -44,7 +44,7 @@ h2 {
 
 #button:hover {
     background-color: #2980b9;
-    transform: translateY(-2px); /* Maliit na pag-angat kapag hinawakan */
+    transform: translateY(-2px); 
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
 }
 
@@ -57,7 +57,7 @@ h2 {
     font-size: 1.1em;
     padding: 15px;
     margin-top: 15px;
-    border: 2px dashed #95a5a6; /* Dashed border para mas pansinin */
+    border: 2px dashed #95a5a6; 
     background-color: #ecf0f1;
     border-radius: 8px;
     min-height: 40px;
